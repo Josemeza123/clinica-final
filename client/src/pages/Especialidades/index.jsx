@@ -1,11 +1,12 @@
-import React from 'react'
+import React from "react";
+import CardEspecialidad from "../../components/CardEspecialidad";
 
 const Especialidades = () => {
   return (
     <div>
-      Especialidades
+      <CardEspecialidad />
     </div>
-  )
-}
+  );
+};
 
-export default Especialidades
+export default Especialidades;
