@@ -7,19 +7,21 @@ import Footer from "./components/Footer";
 import Especialidades from "./pages/Especialidades";
 import Nosotros from "./pages/Nosotros";
 import Intranet from "./pages/Intranet";
+import Login from "./components/Login";
 
 function App() {
   return (
     <>
       <Navbar />
+      <Login />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/especialidades" element={<Especialidades />} />
+        {/* <Route path="/especialidades" element={<Especialidades />} />
         <Route path="/nosotros" element={<Nosotros />} />
-        <Route path="/intranet" element={<Intranet />} />
+        <Route path="/intranet" element={<Intranet />} /> */}
       </Routes>
 
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }

@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <footer className="bg-white" aria-labelledby="footer-heading">
-      <h2 id="footer-heading" class="sr-only">
+      <h2 id="footer-heading" className="sr-only">
         Footer
       </h2>
 
